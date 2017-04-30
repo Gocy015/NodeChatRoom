@@ -42,7 +42,6 @@ wsServer.broadcast = function _broadcast(data) {
 }
 
 // HTTP
-
 http.createServer(function (request, response) {
     console.log(request);
     var parsedUrl = url.parse(request.url, true);

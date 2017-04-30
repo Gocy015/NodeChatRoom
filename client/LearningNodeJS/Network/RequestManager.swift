@@ -21,9 +21,9 @@ class RequestManager{
     }
     
     //MARK: Properties
-    fileprivate let ip = "172.26.41.2"
-    fileprivate let loginPort = "8080"
-    fileprivate let chatPort = "8081"
+    fileprivate let ip = "256.256.256.256" //change this to your site address or your own ip address
+    fileprivate let loginPort = "8080" //change this to your own http server listening port
+    fileprivate let chatPort = "8081" // change this to your own websocket server listening port
     fileprivate var ws : WebSocket!
     //MARK: Life Cycle
     private init(){
